@@ -1,9 +1,7 @@
 export const config = {
-  // BIND: Where the PROXY listens (Leave this alone or use 8080)
   bindInternalServerPort: 8080,
-  bindInternalServerIp: "127.0.0.1",
+  bindInternalServerIp: "0.0.0.0", // KEEP THIS AS 0.0.0.0
 
-  // REMOTE: Where your ATERNOS server is
-  remoteServerIp: "DA-BOYZ.aternos.me", // Your Aternos IP here
-  remoteServerPort: 18258, // Your Aternos Port here
+  remoteServerIp: "DA-BOYZ.aternos.me", // ATERNOS IP GOES HERE
+  remoteServerPort: 18258, // ATERNOS PORT GOES HERE
 };
